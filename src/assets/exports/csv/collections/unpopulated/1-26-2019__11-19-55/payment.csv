@@ -1,0 +1,2 @@
+type,method,card,currency,autoComplete.displayText,autoComplete.actualValue,_id
+One Time Purchase,Card,5bf2f628607740350c0e3917,(USD) United States Dollars,##Card - One Time Purchase##,##Card - One Time Purchase##,5bf2f628607740350c0e391b

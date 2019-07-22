@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs" : true,
+    "module": "commonjs",
+    "declaration": false,
+    "strict": false,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "inlineSourceMap": true,
+	"outDir": "./build"
+  },
+  "include": [
+    "./src/**/*",
+    "./index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "compileOnSave": true
+}

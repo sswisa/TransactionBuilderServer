@@ -1,0 +1,17 @@
+Transaction
+            .find()
+            .populate(this.shallowPopulationOptions)
+            .exec()
+            .then((transactions: ITransactionModel[]) => {
+                return Transaction.populate(transactions, this.deepPopulationOptions)
+            })
+            .then((transactions: ITransactionModel[]) => {
+                return Transaction.populate(transactions, this.populateCardOwner)
+            })
+            .then((transactions: ITransactionModel[]) => {
+                console.log(JSON.stringify(transactions, null, "\t"));
+                //Transaction["csvReadStream"](transactions).pipe(fs.createWriteStream('transactions.csv'));
+            })
+            .catch((err) => {
+                throw err;
+            });

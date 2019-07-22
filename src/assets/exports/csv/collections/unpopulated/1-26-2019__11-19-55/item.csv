@@ -1,0 +1,4 @@
+severity,onWatchList,isRefund,categories,price,amount,name,autoComplete.displayText,autoComplete.actualValue,_id
+Low,false,false,restaurants,6,1,israeli salad small,##israeli salad small##,##israeli salad small##,5bf2f628607740350c0e391d
+Low,false,false,restaurants,3.95,1,rice side order,##rice side order##,##rice side order##,5bf2f628607740350c0e391f
+Low,false,false,restaurants,4.5,1,boneless chicken-kebab,##boneless chicken-kebab##,##boneless chicken-kebab##,5bf2f628607740350c0e3921

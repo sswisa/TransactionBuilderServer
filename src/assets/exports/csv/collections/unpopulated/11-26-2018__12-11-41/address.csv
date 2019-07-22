@@ -1,0 +1,3 @@
+state.name,state.abbreviation,country,city,street,zip,autoComplete.displayText,autoComplete.actualValue,_id
+New York,NY,USA,Forest Hills,108-29 65th Ave,11375,##Home##,##108-29 65th Ave, Forest Hills, NY 11375##,5bf2f628607740350c0e390f
+New York,NY,USA,Forest Hills,63-61 108th St,11375,##Salute in 108##,##63-61 108th St, Forest Hills, NY 11375##,5bf2f628607740350c0e3911

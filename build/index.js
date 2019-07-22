@@ -1,0 +1,136 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express = require("express");
+const mongoose = require("mongoose");
+const jsons_1 = require("./src/jsons");
+const document_1 = require("./src/tools/export/csv/document");
+const fs = require("fs");
+const schemas_1 = require("./src/schemas");
+const models_1 = require("./src/models");
+const app = express();
+const hostname = "127.0.0.1";
+let customPort = process.argv.slice(2).pop();
+const selectedPort = 8081;
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "authorization, content-type, X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, PATCH, OPTIONS");
+    next();
+});
+app.use(require('./src/routers/autoComplete'));
+app.use(require('./src/routers/transactions'));
+let homeAddress = new schemas_1.Address({
+    _id: new mongoose.Types.ObjectId(),
+    state: jsons_1.usaStates.NY,
+    country: models_1.Countries.USA,
+    city: "Forest Hills",
+    street: "108-29 65th Ave",
+    zip: 11375,
+    autoComplete: {
+        displayText: "Home"
+    }
+});
+let saluteAddress = new schemas_1.Address({
+    _id: new mongoose.Types.ObjectId(),
+    state: jsons_1.usaStates.NY,
+    country: models_1.Countries.USA,
+    city: "Forest Hills",
+    street: "63-61 108th St",
+    zip: 11375,
+    autoComplete: {
+        displayText: "Salute in 108"
+    }
+});
+let danielle = new schemas_1.person({
+    _id: new mongoose.Types.ObjectId(),
+    type: models_1.ContactType.Person,
+    name: {
+        first: "Danielle",
+        last: "Swisa"
+    },
+    phone: 3473017251,
+    emails: ["danicoh926@yahoo.com"],
+    address: homeAddress._id
+});
+let shimon = new schemas_1.person({
+    _id: new mongoose.Types.ObjectId(),
+    type: models_1.ContactType.Person,
+    name: {
+        first: "Shimon",
+        last: "Swisa"
+    },
+    phone: 3472339646,
+    emails: ["shmn0007@gmail.com"],
+    address: homeAddress._id
+});
+let card = new schemas_1.Card({
+    _id: new mongoose.Types.ObjectId(),
+    type: models_1.CardType.Debit,
+    last4Digits: "3239",
+    owner: shimon._id,
+    autoComplete: {
+        displayText: "Shimon's debit card 3239"
+    }
+});
+let salute = new schemas_1.vendor({
+    _id: new mongoose.Types.ObjectId(),
+    type: models_1.ContactType.Vendor,
+    name: "Salute Kosher Restaurant",
+    displayText: "Salute",
+    phone: 7182756860,
+    address: saluteAddress._id
+});
+let payment = new schemas_1.Payment({
+    _id: new mongoose.Types.ObjectId(),
+    type: models_1.PaymentType.OneTimePurchase,
+    method: models_1.PaymentMethod.Card,
+    card: card._id,
+    currency: models_1.CurrencyType.USD
+});
+let smallIsraeliSalad = new schemas_1.Item({
+    _id: new mongoose.Types.ObjectId,
+    categories: [jsons_1.shoppingCategories.restaurants],
+    price: 6,
+    name: "israeli salad small"
+});
+let rice = new schemas_1.Item({
+    _id: new mongoose.Types.ObjectId,
+    categories: [jsons_1.shoppingCategories.restaurants],
+    price: 3.95,
+    name: "rice side order"
+});
+let chicken = new schemas_1.Item({
+    _id: new mongoose.Types.ObjectId,
+    categories: [jsons_1.shoppingCategories.restaurants],
+    price: 4.50,
+    name: "boneless chicken-kebab"
+});
+let transaction = new schemas_1.Transaction({
+    _id: new mongoose.Types.ObjectId(),
+    dates: [new Date(2018, 9, 17, 13, 57, 3)],
+    vendors: [salute._id],
+    persons: [shimon._id, danielle._id],
+    payments: [payment._id],
+    items: [smallIsraeliSalad._id, rice._id, chicken._id],
+    price: {
+        tax: 1.28,
+        tip: 2,
+        subTotal: 14.45,
+        totalWithoutTip: 15.73,
+        total: 17.73
+    }
+});
+let mongooseErrorHandler = (err) => {
+    if (err.name === "MongoError" && err.code === 11000)
+        throw err;
+    throw err;
+};
+let exportCsv = new document_1.DocumentToCsv();
+exportCsv.export();
+app.get("/", (req, res) => {
+    res.send("Hello Express");
+});
+app.listen(selectedPort, hostname, () => {
+    console.log(`Server running at http://${hostname}:${selectedPort}`);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLG1DQUFtQztBQUNuQyxNQUFNLFFBQVEsR0FBRyxPQUFPLENBQUMsVUFBVSxDQUFDLENBQUM7QUFDckMsdUNBQTBEO0FBRTFELDhEQUE4RDtBQUM5RCxNQUFNLEVBQUUsR0FBRyxPQUFPLENBQUMsSUFBSSxDQUFDLENBQUM7QUFFekIsMkNBZ0J1QjtBQUV2Qix5Q0FTc0I7QUFFdEIsTUFBTSxHQUFHLEdBQUcsT0FBTyxFQUFFLENBQUM7QUFDdEIsTUFBTSxRQUFRLEdBQUcsV0FBVyxDQUFDO0FBQzdCLElBQUksVUFBVSxHQUFHLE9BQU8sQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBRTdDLE1BQU0sWUFBWSxHQUFHLElBQUksQ0FBQztBQUUxQixHQUFHLENBQUMsR0FBRyxDQUFDLENBQUMsR0FBb0IsRUFBRSxHQUFxQixFQUFFLElBQTBCLEVBQUUsRUFBRTtJQUNoRixHQUFHLENBQUMsTUFBTSxDQUFDLDZCQUE2QixFQUFFLEdBQUcsQ0FBQyxDQUFDO0lBQy9DLEdBQUcsQ0FBQyxNQUFNLENBQUMsOEJBQThCLEVBQUUsK0NBQStDLENBQUMsQ0FBQztJQUM1RixHQUFHLENBQUMsTUFBTSxDQUFDLDhCQUE4QixFQUFFLHdDQUF3QyxDQUFDLENBQUM7SUFDckYsSUFBSSxFQUFFLENBQUM7QUFDWCxDQUFDLENBQUMsQ0FBQztBQUVILEdBQUcsQ0FBQyxHQUFHLENBQUMsT0FBTyxDQUFDLDRCQUE0QixDQUFDLENBQUMsQ0FBQztBQUMvQyxHQUFHLENBQUMsR0FBRyxDQUFDLE9BQU8sQ0FBQyw0QkFBNEIsQ0FBQyxDQUFDLENBQUM7QUFFL0MsSUFBSSxXQUFXLEdBQWtCLElBQUksaUJBQU8sQ0FBQztJQUN6QyxHQUFHLEVBQUUsSUFBSSxRQUFRLENBQUMsS0FBSyxDQUFD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

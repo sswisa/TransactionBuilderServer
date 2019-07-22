@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b3a8ed8-33e7-496f-89b3-a92863306a2f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="autoComplete.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routers/autoComplete.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Scans/study/final_backup/NewBBROS/includes/javascript/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transactions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routers/transactions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoComplete.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/interfaces/autoComplete.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="contact.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/interfaces/contact.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/interfaces/item.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoppingCategories.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jsons/shoppingCategories.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="card.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/schemas/card.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Schema</find>
+      <find>build</find>
+      <find>jsons_1</find>
+      <find>../jsons/shoppingCategories.json</find>
+      <find>_</find>
+      <find>mongooseToCsv</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tools/export/csv/contact.ts" />
+        <option value="$PROJECT_DIR$/src/tools/export/csv/card.ts" />
+        <option value="$PROJECT_DIR$/src/tools/export/csv/payment.ts" />
+        <option value="$PROJECT_DIR$/src/tools/export/csv/transaction.ts" />
+        <option value="$PROJECT_DIR$/src/tools/export/csv/address.ts" />
+        <option value="$PROJECT_DIR$/tcconfig.json" />
+        <option value="$PROJECT_DIR$/src/jsons/usaStates.ts" />
+        <option value="$PROJECT_DIR$/src/jsons/index.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/helpers/getConstraints.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/build/src/tools/export/csv/document.js" />
+        <option value="$PROJECT_DIR$/src/jsons/shoppingCategories.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/assignSchemaPlugin.ts" />
+        <option value="$PROJECT_DIR$/src/usefull.txt" />
+        <option value="$PROJECT_DIR$/src/routers/transactions.ts" />
+        <option value="$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-2-2018__12-40-45/address.csv" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/autoComplete.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/address.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/getVirtualPath.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/virtual.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/getDocPathObject.ts" />
+        <option value="D:/Scans/study/WebstormProjects/untitled/index.js" />
+        <option value="$PROJECT_DIR$/src/schemas/address.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/card.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/getVirtualObject.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/getObjectByPath.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/addBrackets.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/index.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/getVirtualsForArrayFields.ts" />
+        <option value="$PROJECT_DIR$/build/src/schemas/contact.js" />
+        <option value="$PROJECT_DIR$/src/routers/index.ts" />
+        <option value="$PROJECT_DIR$/src/models/enums/paymentMethod.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/payment.ts" />
+        <option value="$PROJECT_DIR$/src/models/enums/currencyType.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/card.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/index.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/contact.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/index.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/price.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/transaction.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/transaction.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/contact.ts" />
+        <option value="$PROJECT_DIR$/src/tools/export/csv/document.ts" />
+        <option value="$PROJECT_DIR$/src/helpers/joinObjectIds.ts" />
+        <option value="$PROJECT_DIR$/src/models/interfaces/item.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/item.ts" />
+        <option value="$PROJECT_DIR$/index.ts" />
+        <option value="$PROJECT_DIR$/src/schemas/payment.ts" />
+        <option value="$PROJECT_DIR$/src/routers/autoComplete.ts" />
+        <option value="$PROJECT_DIR$/src/routers/exercise2_search_results.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="2572" />
+    <option name="height" value="1405" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.11.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\src\assets\exports\csv\collections\unpopulated" />
+      <recent name="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\src\assets\exports\csv\collections\" />
+      <recent name="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\src\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\lib\src\jsons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Typescript" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="build/index.js" working-dir="$PROJECT_DIR$">
+      <method>
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="C:\Users\shmn0\WebstormProjects\HouseHoldAnalytics\TransactionBuilder\TransactionBuilderServer\tsconfig.json" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b3a8ed8-33e7-496f-89b3-a92863306a2f" name="Default" comment="" />
+      <created>1538670297234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538670297234</updated>
+      <workItem from="1538670298480" duration="38238000" />
+      <workItem from="1539214086152" duration="44790000" />
+      <workItem from="1539879049297" duration="590000" />
+      <workItem from="1539879652013" duration="46370000" />
+      <workItem from="1540320547448" duration="1277000" />
+      <workItem from="1540321895028" duration="5983000" />
+      <workItem from="1540397114983" duration="23024000" />
+      <workItem from="1540499199853" duration="973000" />
+      <workItem from="1540508902470" duration="1561000" />
+      <workItem from="1540510526249" duration="182000" />
+      <workItem from="1540510793585" duration="3998000" />
+      <workItem from="1540516892529" duration="4548000" />
+      <workItem from="1540521533381" duration="1544000" />
+      <workItem from="1540523093647" duration="177000" />
+      <workItem from="1540523305387" duration="288000" />
+      <workItem from="1540523605428" duration="31000" />
+      <workItem from="1540523648199" duration="241000" />
+      <workItem from="1540523901418" duration="230000" />
+      <workItem from="1540524143950" duration="316000" />
+      <workItem from="1540524776091" duration="17820000" />
+      <workItem from="1540658449405" duration="1110000" />
+      <workItem from="1540659591491" duration="78672000" />
+      <workItem from="1542036858636" duration="5570000" />
+      <workItem from="1542210302101" duration="12633000" />
+      <workItem from="1543252240671" duration="668000" />
+      <workItem from="1543288657530" duration="724000" />
+      <workItem from="1543353392061" duration="632000" />
+      <workItem from="1544805336861" duration="736000" />
+      <workItem from="1548519211324" duration="2532000" />
+      <workItem from="1554602475521" duration="645000" />
+      <workItem from="1556127076047" duration="3555000" />
+      <workItem from="1557166784626" duration="1249000" />
+      <workItem from="1557928546278" duration="599000" />
+      <workItem from="1558059032546" duration="3572000" />
+      <workItem from="1559564252688" duration="1829000" />
+      <workItem from="1559761899402" duration="1256000" />
+      <workItem from="1560440191505" duration="597000" />
+      <workItem from="1560537779180" duration="8896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="317656000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="2" width="2572" height="1405" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32942098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14404105" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32942098" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1369327" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32081378" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2856025" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32942098" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11662727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32942098" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32942098" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26134586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32081378" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../Practice/src/interview_questions/JP_Morgan/calculator/calculator.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="140" />
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="TransactionBuilderServer" type="b2602c69:ProjectViewProjectNode" />
+        <item name="TransactionBuilderServer" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-10-2018__14-17-28/payment.csv" />
+    <entry file="file://$PROJECT_DIR$/src/usefull.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="14" selection-start-line="4" selection-start-column="12" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/address.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/card.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/price.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/transaction.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/transaction.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/person.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/payment.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/card.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/address.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-23-29/vendor.csv" />
+    <entry file="file://$PROJECT_DIR$/build/src/helpers/joinObjectIds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/address.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-32-38/address.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-32-38/item.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-32-38/payment.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-32-38/person.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-32-38/transaction.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/person.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/vendor.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/transaction.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/card.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/address.csv" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/joinObjectIds.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/payment.csv" />
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-14-2018__19-36-53/item.csv" />
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/payment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/exports/csv/collections/unpopulated/11-19-2018__12-43-7/item.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/transaction.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/export/csv/document.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3762">
+          <caret line="209" column="3" selection-start-line="207" selection-end-line="209" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/addBrackets.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/payment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/contact.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/autoComplete.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/contact.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/interfaces/item.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsons/shoppingCategories.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/card.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/transactions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Scans/study/final_backup/NewBBROS/includes/javascript/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/exercise2_search_results.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/autoComplete.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

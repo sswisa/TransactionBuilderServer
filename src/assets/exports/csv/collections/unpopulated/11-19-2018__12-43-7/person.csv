@@ -1,0 +1,3 @@
+type,phone,emails,address,_id,name.first,name.last,name.full,autoComplete.displayText,autoComplete.actualValue
+Person,3473017251,danicoh926@yahoo.com,5bf2f628607740350c0e390f,5bf2f628607740350c0e3913,Danielle,Swisa,Danielle Swisa,##Danielle Swisa##,##Danielle Swisa##
+Person,3472339646,shmn0007@gmail.com,5bf2f628607740350c0e390f,5bf2f628607740350c0e3915,Shimon,Swisa,Shimon Swisa,##Shimon Swisa##,##Shimon Swisa##

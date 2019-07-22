@@ -1,0 +1,2 @@
+type,last4Digits,cardNumber,owner,autoComplete.displayText,autoComplete.actualValue,_id
+Debit,3239,XXXX-XXXX-XXXX-3239,5bf2f628607740350c0e3915,##Shimon's debit card 3239##,##Debit 3239##,5bf2f628607740350c0e3917
